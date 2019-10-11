@@ -21,10 +21,10 @@ export default{
 @import url('https://fonts.googleapis.com/css?family=Big+Shoulders+Display|Lora|Montserrat&display=swap');
 
 .clearfix::after {
-        content: "";
-        clear: both;
-        display: table;
-    }
+  content: "";
+  clear: both;
+  display: table;
+}
     
 .container{
   width: 80%;

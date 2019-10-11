@@ -12,7 +12,6 @@
             </div>
             <div class="right">
                 <ul style="font-family: 'Big Shoulders Display', cursive; color: white;">
-                    <li>Über uns</li>
                     <li>Die Wohnung</li>
                     <li>Preise</li>
                     <li>Annaberg</li>
