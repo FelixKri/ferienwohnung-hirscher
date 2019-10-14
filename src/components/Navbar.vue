@@ -133,7 +133,7 @@ export default {
         background-color: white;
     }
 
-    @media only screen and (max-width: 1000px){
+    @media only screen and (max-width: 850px){
         .hamburger{
             display: block;
             cursor: pointer;

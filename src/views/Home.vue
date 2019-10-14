@@ -22,21 +22,21 @@
           <img :src="require('@/assets/hiking.jpg')" alt="" class="full-width img">
         </div>
         <div class="right-block">
-          <h2>Restaurants & Almhütten</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, magnam architecto quisquam at reprehenderit officia nesciunt quidem cum! Iste ea aliquam nulla ipsum eaque placeat, eum at optio maiores nobis.</p>
+          <h2 style="text-align: left;">Restaurants & Almhütten</h2>
+          <p>Rund um Annaberg verstekcen sich in den Bergen verschiedene kleine bewirtete Almhütten, ideal für eine kurze Pause oder Mahlzeit. Von den Terrassen kann man den Wundervollen Ausblick auf das Tennengebirge und den Gosaukamm bei einer Mahlzeit oder einem Getränk bewundern!</p>
           <a href="#">
             <div class="button">
               Unsere Empfehlungen
             </div>
           </a>
-          <h2>Preise & Buchung</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem dolores nobis, asperiores minus expedita fugit eos officia. Voluptatibus, doloribus ipsam?</p>
-          <a href="#">
+          <h2 style="text-align: left;">Preise & Buchung</h2>
+          <p>Unsere Preise findest du in der Preise Seite oder direkt auf dem <a href="https://booking.annaberg-lungoetz.com/tennengauannaberg/de/accommodation/search?">Reservierungsportal von Annaberg</a></p>
+          <a href="/pricing">
             <div class="button">
               Zu den Preisen
             </div>
           </a>
-          <h2>Über Annaberg</h2>
+          <h2 style="text-align: left;">Über Annaberg</h2>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum quidem tempore dignissimos quia velit pariatur recusandae, ab saepe tenetur, veritatis expedita fuga, laboriosam eligendi consequatur facilis ipsum? Possimus vero culpa, temporibus atque asperiores dolore accusamus nesciunt distinctio non inventore illo minima sunt numquam consequuntur? Ex, alias incidunt. Voluptates, nobis omnis.</p>
           <a href="#">
             <div class="button">
@@ -101,7 +101,6 @@ export default {
 
   .half-width{
     width: 48%;
-    height: 190px;
   }
 
   .full-width{
@@ -117,4 +116,20 @@ export default {
     float: right;
     width: 45%;
   }
+
+  @media only screen and (max-width: 850px){
+    .left-block{
+      float: none;
+      width: 100%;
+    }
+
+    .right-block{
+      float: none;
+      width: 100%;
+    }
+
+    .heading{
+      font-size: 2.5em;
+    }
+  }  
 </style>

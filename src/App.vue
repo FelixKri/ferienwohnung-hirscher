@@ -20,6 +20,10 @@ export default{
 <style>
 @import url('https://fonts.googleapis.com/css?family=Big+Shoulders+Display|Lora|Montserrat&display=swap');
 
+a{
+  color: black;
+}
+
 .clearfix::after {
   content: "";
   clear: both;

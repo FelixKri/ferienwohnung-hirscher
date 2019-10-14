@@ -6,7 +6,7 @@
   
   <div class="grid">
         <div>
-            <p style="margin: 0; text-align: justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, explicabo. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam ab sapiente perspiciatis reprehenderit magnam dolorum laudantium iusto quo earum deleniti dolores corrupti aut eum itaque, atque quod saepe praesentium qui illo necessitatibus! Odio, assumenda. Eveniet excepturi, qui necessitatibus est illo rerum dolor quaerat, dignissimos harum velit maiores voluptatem laboriosam fugiat.</p>
+            <p style="margin: 0; text-align: justify" class="gridtext">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, explicabo. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam ab sapiente perspiciatis reprehenderit magnam dolorum laudantium iusto quo earum deleniti dolores corrupti aut eum itaque, atque quod saepe praesentium qui illo necessitatibus! Odio, assumenda. Eveniet excepturi, qui necessitatibus est illo rerum dolor quaerat, dignissimos harum velit maiores voluptatem laboriosam fugiat.</p>
         </div>
         <figure class="item-1">
             <img :src="require('@/assets/bedroom1.jpg')" alt="" class="img">
@@ -24,7 +24,7 @@
             <img :src="require('@/assets/bath2.jpg')" alt="" class="img">
         </figure>
         <div>
-            <p style="margin: 0; text-align: justify;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam ab sapiente perspiciatis reprehenderit magnam dolorum laudantium iusto quo earum deleniti dolores corrupti aut eum itaque, atque quod saepe praesentium qui illo necessitatibus! Odio, assumenda. Eveniet excepturi, qui necessitatibus est illo rerum dolor quaerat, dignissimos harum velit maiores voluptatem laboriosam fugiat.</p>
+            <p style="margin: 0; text-align: justify;"class="gridtext">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam ab sapiente perspiciatis reprehenderit magnam dolorum laudantium iusto quo earum deleniti dolores corrupti aut eum itaque, atque quod saepe praesentium qui illo necessitatibus! Odio, assumenda. Eveniet excepturi, qui necessitatibus est illo rerum dolor quaerat, dignissimos harum velit maiores voluptatem laboriosam fugiat.</p>
         </div>
         <figure class="item-3">
             <img :src="require('@/assets/bath1.jpg')" alt="" class="img">
@@ -33,7 +33,7 @@
   <h2>Küche & Wohnzimmer</h2>
   <div class="grid">
         <div>
-            <p style="margin: 0; text-align: justify;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam ab sapiente perspiciatis reprehenderit magnam dolorum laudantium iusto quo earum deleniti dolores corrupti aut eum itaque, atque quod saepe praesentium qui illo necessitatibus! Odio, assumenda. Eveniet excepturi, qui necessitatibus est illo rerum dolor quaerat, dignissimos harum velit maiores voluptatem laboriosam fugiat.</p>
+            <p style="margin: 0; text-align: justify;" class="gridtext">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam ab sapiente perspiciatis reprehenderit magnam dolorum laudantium iusto quo earum deleniti dolores corrupti aut eum itaque, atque quod saepe praesentium qui illo necessitatibus! Odio, assumenda. Eveniet excepturi, qui necessitatibus est illo rerum dolor quaerat, dignissimos harum velit maiores voluptatem laboriosam fugiat.</p>
         </div>
         <figure class="item-1">
             <img :src="require('@/assets/kitchen.jpg')" alt="" class="img">
@@ -116,4 +116,23 @@
     hr{
         border: 1px black solid;
     }
+
+    @media only screen and (max-width: 850px){
+        .grid{
+            display: block;
+        }
+
+        .img{
+            max-height: 350px;
+            object-fit: cover;
+        }
+
+        p{
+            padding: 1em 2em;
+        }
+
+        h2{
+            text-align: center;
+        }
+    }  
 </style>
