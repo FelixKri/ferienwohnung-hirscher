@@ -21,7 +21,7 @@
                     <li><a href="/house">DIE WOHNUNG</a></li>
                     <li><a href="/pricing">PREISE</a></li>
                     <li><a href="/annaberg">ANNABERG</a></li>
-                    <li><a href="/contact">Kontakt</a></li>
+                    <li><a href="/contact">KONTAKT</a></li>
                 </ul>
             </div>
         </div>

@@ -9,7 +9,7 @@
           <h2 style="margin-top: 0; padding-top: 1em;">Die Wohnung</h2>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore illo asperiores culpa eum assumenda laboriosam voluptatem iure deleniti dolorem, cumque nesciunt facere doloremque similique commodi odit modi impedit dolor ut!</p>
           <div class="img-block clearfix">
-            <img :src="require('@/assets/terrasse.jpg')" alt="" class="half-width left">
+            <img :src="require('@/assets/kitchen4.jpg')" alt="" class="half-width left">
             <img :src="require('@/assets/terrasse.jpg')" alt="" class="half-width right">
           </div>
           <img :src="require('@/assets/beds1.jpg')" alt="" class="full-width img">
@@ -37,7 +37,7 @@
             </div>
           </a>
           <h2 style="text-align: left;">Über Annaberg</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum quidem tempore dignissimos quia velit pariatur recusandae, ab saepe tenetur, veritatis expedita fuga, laboriosam eligendi consequatur facilis ipsum? Possimus vero culpa, temporibus atque asperiores dolore accusamus nesciunt distinctio non inventore illo minima sunt numquam consequuntur? Ex, alias incidunt. Voluptates, nobis omnis.</p>
+          <p>Ein kleines 1400 Einwohner Dorf im Herzen von Salzburg, umgeben von den wunderschönen Bergen des Tennegebirges und Gosaukamms. Im Salzburger Lammertal ticken die Uhren noch etwas anders. Ursprünglicher. Irgendwie eine ganz andere Welt. Genießen Sie unvergessliche Skitage in der Skiregion Dachstein West oder lassen Sie einfach die Stille der Natur auf sich wirken.</p>
           <a href="#">
             <div class="button">
               Mehr Erfahren

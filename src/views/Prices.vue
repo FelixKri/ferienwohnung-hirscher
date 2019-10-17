@@ -60,4 +60,11 @@ export default {
         text-decoration: none;
         color: black;
     }
+
+    .line{
+        margin: 8px 0;
+        height: 2px;
+        width: 30px;
+        background-color: black;
+    }
 </style>

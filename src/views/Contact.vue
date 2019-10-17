@@ -18,6 +18,11 @@ export default {
         border: 1px black solid;
     }
 
+    p{
+        margin: 2em auto;
+        width: 60%;
+    }
+
     .header{
         font-size: 4em;
         text-align: center;
@@ -45,4 +50,16 @@ export default {
         color: black;
     }
 
+    .line{
+        margin: 8px 0;
+        height: 2px;
+        width: 30px;
+        background-color: black;
+    }
+
+    @media only screen and (max-width: 850px){
+        p{
+            width: 90%;
+        }
+    }
 </style>

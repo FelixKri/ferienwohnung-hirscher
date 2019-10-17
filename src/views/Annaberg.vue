@@ -4,9 +4,11 @@
             <h1 class="heading"> ANNABERG IM LAMMERTAL </h1>
         </div>
         <div class="container">
-            <h2>SOMMERURLAUB IN ANNABERG-LUNGÖTZ</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea alias voluptatum perspiciatis, consequuntur voluptas fugit est iste eius neque aperiam odit iure animi. Quae alias nobis cum, nesciunt eaque veritatis consequatur, sapiente, reprehenderit porro accusantium nostrum nisi tenetur? Corrupti ab, voluptates obcaecati libero recusandae sequi provident fugiat non dolorem aliquam quas eos amet corporis vitae commodi modi expedita sint labore quisquam veniam minima dignissimos reprehenderit? Quos cupiditate perspiciatis qui eius assumenda aliquam numquam quidem voluptas possimus deserunt neque alias, deleniti optio rem ea nihil est non aut accusantium minus eum molestiae obcaecati. Ipsa quia illum, officiis tenetur laudantium magni distinctio?</p>
-        
+            <h2 style="margin-bottom: 0;">SOMMERURLAUB IN ANNABERG-LUNGÖTZ</h2>
+            <h3>BERGSOMMER-GENUSS MIT ALLEN SINNEN IN DER WANDERREGION DACHSTEIN-WEST</h3>
+            <p>Wandern in Annaberg-Lungötz über saftige Almwiesen, begleitet von Vogelgezwitscher, dem Plätschern munterer Bächlein und vom prächtigen Panorama des Gosaukammes mit der markanten Bischofsmütze. Und für die Rast bieten Almen und Hütten in der Region ihre selbstgemachten Köstlichkeiten an.</p>
+            <h3>Dem Wandergenuss entgegenschweben</h3>
+            <p>Hinein in die Wanderschuhe und hinauf auf den Berg! Es erwarten Sie ein fantastisches Panorama, schöne Wanderwege für die ganze Familie, gemütliche Hütten oder sogar ein Gipfelsturm. Jeden Mittwoch und Freitag bringt Sie die Donnerkogelbahn in das Wandergebiet Zwieselalm in Annaberg/Dachstein-West. Gäste aus Annaberg-Lungötz fahren mit ihrer Gästekarte kostenlos.</p>
             <h2>WINTERURLAUB IN ANNABERG-LUNGÖTZ</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis cum, in recusandae perferendis itaque nostrum. Hic cupiditate sint ipsam delectus accusantium id magnam. Fugit culpa a atque, iure eveniet cumque at explicabo reprehenderit rem non earum, modi placeat! Ab voluptate laborum sit. Sint ex et ea laudantium hic recusandae autem! Accusantium explicabo cumque officiis perspiciatis, doloribus sunt, tempora quisquam ratione nesciunt velit animi atque ipsa. Perferendis, iusto quisquam sequi nulla quod possimus ad laboriosam? Quasi, inventore accusamus! Numquam iste ratione atque eos minus culpa fugiat officia aliquam accusamus rerum a, voluptatum aperiam facilis, voluptates deserunt! Qui assumenda laudantium quo sit.</p>
             
