@@ -9,6 +9,7 @@
                 <a href="/pricing">PREISE</a>
                 <a href="/annaberg">ANNABERG</a>
                 <a href="/contact">KONTAKT</a>
+                <a href="https://booking.annaberg-lungoetz.com/tennengauannaberg/de/accommodation/list">BUCHUNG</a>
             </div>
             <div class="hamburger" @click="expandNav()">
                 <div class="line" id="p1"></div>
@@ -22,6 +23,7 @@
                     <li><a href="/pricing">PREISE</a></li>
                     <li><a href="/annaberg">ANNABERG</a></li>
                     <li><a href="/contact">KONTAKT</a></li>
+                    <li><a href="https://booking.annaberg-lungoetz.com/tennengauannaberg/de/accommodation/list">BUCHUNG</a></li>
                 </ul>
             </div>
         </div>

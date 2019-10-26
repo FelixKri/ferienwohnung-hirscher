@@ -19,6 +19,9 @@ export default{
 </script>
 <style>
 @import url('https://fonts.googleapis.com/css?family=Big+Shoulders+Display|Lora|Montserrat&display=swap');
+img{
+  width: 100%;
+}
 
 .img:hover{
   opacity: 0.7;
@@ -99,6 +102,10 @@ a{
 .container{
   width: 80%;
   margin: 0 auto;
+}
+
+.fluid{
+  max-width: 1500px;
 }
 
 h1{
