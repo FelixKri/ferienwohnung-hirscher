@@ -37,6 +37,10 @@ export default new Router({
       path: '/contact',
       name: 'contact',
       component: () => import('./views/Contact.vue')
+    },
+    { 
+      path: '*',
+      component: () => import('./views/Home.vue') 
     }
   ]
 })
